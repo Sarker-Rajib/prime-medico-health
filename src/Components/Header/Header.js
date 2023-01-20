@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import logo from '../../Assets/Images/logo-big.png'
 
 const Header = () => {
     return (
@@ -9,7 +10,9 @@ const Header = () => {
             <div className="fixed-top heading">
                 <Container>
                     <nav className="navbar navbar-expand-lg">
-                        <Link to="/" className='text-white'>Logo</Link>
+                        <Link to="/">
+                            <Image className='img-fluid logo' src={logo} />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="">

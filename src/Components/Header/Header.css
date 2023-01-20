@@ -1,15 +1,18 @@
 .header {
     background: #f5b01b;
-
-    color: #f5b01b;
     padding-bottom: 60px;
 }
 
+.header .logo {
+    max-width: 160px;
+}
+
 .heading {
-    background: #254ec0;
+    background: #ffffff;
 
 }
 
 .navbar-collapse .nav-link {
-    color: #fff;
+    color: #42a7aa;
+    font-size: 18px;
 }

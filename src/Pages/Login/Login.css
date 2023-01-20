@@ -1,0 +1,40 @@
+.login-page {
+    min-height: calc(100vh - 65px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../Assets/Images/banner-bg.jpg) no-repeat center center/cover;
+
+}
+
+.login-page::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #ffffff4d;
+}
+
+.login-page .form-wrapper {
+    background: #02b3b3;
+    min-width: 380px;
+    border: 1px solid #02b3b3;
+    padding: 10px;
+    position: relative;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.login-page .form-wrapper form {
+    background: transparent;
+}
+
+.login-page .form-wrapper .submit-button {
+    width: 100%;
+    background: #0f0a0a;
+    padding-block: 10px;
+    border-color: #0f0a0a;
+}

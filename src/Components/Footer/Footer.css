@@ -1,0 +1,18 @@
+.footer {
+    padding: 40px 0;
+    background: rgb(255, 255, 255);
+    color: #02b3b3;
+    border-top: 1px solid #f5b01b;
+    border-bottom: 1px solid #f5b01b;
+}
+
+footer a {
+    color: #02b3b3;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+footer a:hover {
+    margin-left: 5px;
+    color: #f5b01b;
+}
