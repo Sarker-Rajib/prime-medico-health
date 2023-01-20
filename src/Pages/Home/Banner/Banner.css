@@ -1,5 +1,5 @@
 .banner {
-    min-height: 85vh;
+    min-height: calc(100vh - 60px);
     background: url(../../../Assets/Images/banner-bg.jpg) no-repeat center center/cover;
     display: flex;
     align-items: center;

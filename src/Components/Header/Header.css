@@ -9,10 +9,25 @@
 
 .heading {
     background: #ffffff;
+}
 
+.heading .UserName {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5b01b;
+    border-bottom: 2px solid rgb(8, 188, 194);
+    cursor: pointer;
 }
 
 .navbar-collapse .nav-link {
     color: #42a7aa;
     font-size: 18px;
+}
+
+.heading .logout-button {
+    top: 120%;
+    background: rgb(255, 102, 0);
+    border: none;
+    color: #000000;
 }

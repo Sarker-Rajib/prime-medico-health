@@ -1,5 +1,5 @@
 .login-page {
-    min-height: calc(100vh - 65px);
+    min-height: calc(100vh - 60px);
     position: relative;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@
 
 .login-page .form-wrapper {
     background: #02b3b3;
-    min-width: 380px;
+    min-width: 370px;
     border: 1px solid #02b3b3;
     padding: 10px;
     position: relative;
@@ -35,6 +35,8 @@
 .login-page .form-wrapper .submit-button {
     width: 100%;
     background: #0f0a0a;
+    color: #fff;
     padding-block: 10px;
     border-color: #0f0a0a;
+    border-radius: 10px;
 }
