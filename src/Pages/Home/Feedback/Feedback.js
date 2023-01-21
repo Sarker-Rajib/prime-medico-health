@@ -11,7 +11,7 @@ const Feedback = () => {
     return (
         <div className='feedback'>
             <Container>
-                <div className="text-end">
+                <div>
                     <h2 className="section-header-rtl">What Our Patients Say !</h2>
                     <p>Let's See Feedback and Comments from our patients</p>
                 </div>

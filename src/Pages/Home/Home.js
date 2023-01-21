@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import AboutUS from './AboutUs/AboutUS';
 import Banner from './Banner/Banner';
 import ContactUs from './ContactUs/ContactUs';
 import Feedback from './Feedback/Feedback';
@@ -19,6 +20,7 @@ const Home = () => {
             <OurDoctors />
             <OurGoal />
             <OurServices />
+            <AboutUS />
             <Feedback />
             <Newsletter />
             <ContactUs />
