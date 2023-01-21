@@ -1,0 +1,21 @@
+.nfpage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nfpage .con-wrapper {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.button-green {
+    background: #02b3b3;
+    border-color: #02b3b3;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
