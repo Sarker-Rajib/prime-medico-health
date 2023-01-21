@@ -28,8 +28,8 @@ const OurDoctors = () => {
                                 <li>ENT(Ear, Nose, Throat)</li>
                                 <li>Cardiology and Cardiac Surgery</li>
                             </ul>
-                            <p>Explore Our Doctors and choose yours -</p>
-                            <Button>Visit Our Doctors</Button>
+                            <p>Explore Our Doctors and appoint yours -</p>
+                            <Button className='btn brand-button'>Visit Our Doctors</Button>
                         </div>
                     </Col>
                     <Col lg={6} className="text-center">
