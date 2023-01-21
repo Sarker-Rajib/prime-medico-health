@@ -2,13 +2,13 @@
     padding: 50px 0;
 }
 
-.brand-button {
+.our-services .brand-button {
     background: #02b3b3;
     border: 2px solid #02b3b3;
     padding-inline: 30px;
 }
 
-.brand-button:hover {
+.our-services .brand-button:hover {
     color: #bb8000;
     background: rgb(255, 255, 255);
 }
