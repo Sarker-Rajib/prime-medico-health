@@ -1,3 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##### Technologies and Features
+* React app create with create-react-app
+* React router for router creation
+* Bootstrap and React Bootstrap as css framework
+* User Authentication with firebase
+* React-hot-toast for alert/notification/acknowledgements
+* 
+* 
