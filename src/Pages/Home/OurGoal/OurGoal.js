@@ -9,7 +9,7 @@ const OurGoal = () => {
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <Image src={doctor} className="img-fluid rounded" />
+                        <Image src={doctor} className="img-fluid rounded w-100" />
                     </Col>
                     <Col lg={6}>
                         <div className="text-end">

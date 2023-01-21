@@ -4,6 +4,7 @@ import ContactUs from './ContactUs/ContactUs';
 import Newsletter from './Newsletter/Newsletter';
 import OurDoctors from './OurDoctors/OurDoctors';
 import OurGoal from './OurGoal/OurGoal';
+import OurServices from './OurServices/OurServices';
 
 const Home = () => {
 
@@ -13,11 +14,12 @@ const Home = () => {
 
     return (
         <div>
-            <Banner></Banner>
-            <OurDoctors></OurDoctors>
-            <OurGoal></OurGoal>
-            <Newsletter></Newsletter>
-            <ContactUs></ContactUs>
+            <Banner />
+            <OurDoctors />
+            <OurGoal />
+            <OurServices />
+            <Newsletter />
+            <ContactUs />
         </div>
     );
 };
