@@ -7,7 +7,7 @@ const OurGoal = () => {
     return (
         <div className='our-goal'>
             <Container>
-                <Row>
+                <Row className='gy-3'>
                     <Col lg={6}>
                         <Image src={doctor} className="img-fluid rounded w-100"
                             data-aos="fade-down"

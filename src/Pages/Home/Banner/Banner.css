@@ -40,11 +40,32 @@
 }
 
 .banner .explore-button {
-    background: #2b9191;
-    transition: all 0.3s;
+    background: #02b3b3;
+    border: 2px solid #02b3b3;
 }
 
 .banner .explore-button:hover {
-    background: #741cd8;
-    position: relative;
+    color: #bb8000;
+    background: #ffffff18;
+    font-weight: bold;
+}
+
+.banner .bottom-link {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    z-index: 999;
+    display: inline-block;
+    background: #02b3b3;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.banner .bottom-link .arrow {
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+.banner .bottom-link:hover .arrow {
+    transform: scale(1.2);
 }

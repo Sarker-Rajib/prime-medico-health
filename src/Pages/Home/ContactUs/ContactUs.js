@@ -6,13 +6,13 @@ const ContactUs = () => {
     return (
         <div className='contact-us'>
             <Container>
-                <Row>
+                <Row className='gy-3'>
                     <Col lg={6}>
                         <h2 className='section-header'>Contact Us</h2>
                         <p className='m-0'>Phone: 8654 3546, 9699 5768</p>
                         <p className='m-0'>Mobile: +880 61115 156722</p>
                         <p className='m-0'>Email : info@pmhc.com</p>
-                        <p className='m-0'>Address : Nilkhet , Dhaka, Bangladesh</p>
+                        <p className='m-0'>Address : Dhaka, Bangladesh</p>
                         <form className='form-control mt-3'>
                             <p className="pt-6 pb-2">Send your message</p>
                             <input className='form-control' type="text" placeholder='Enter Name' />

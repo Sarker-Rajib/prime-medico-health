@@ -5,9 +5,9 @@ import './OurDoctor.css';
 
 const OurDoctors = () => {
     return (
-        <div className='doctor-banner'>
+        <div className='doctor-banner' id='doctorBanner'>
             <Container>
-                <Row>
+                <Row className='gy-3'>
                     <Col lg={6}>
                         <div className="text"
                             data-aos="fade-right"

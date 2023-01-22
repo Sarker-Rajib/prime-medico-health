@@ -21,10 +21,30 @@ const Feedback = () => {
                         slidesPerView={4}
                         spaceBetween={20}
                         autoplay={{
-                            delay: 1000,
+                            delay: 3500,
                         }}
                         // loop={true}
                         modules={[Navigation]}
+                        breakpoints={{
+                            // when window width is >= 640px
+                            320: {
+                                width: 320,
+                                slidesPerView: 1,
+                            },
+                            // when window width is >= 768px
+                            768: {
+                                width: 768,
+                                slidesPerView: 2,
+                            },
+                            992: {
+                                width: 992,
+                                slidesPerView: 3,
+                            },
+                            1200: {
+                                width: 1200,
+                                slidesPerView: 4,
+                            },
+                        }}
                         className="mySwiper">
 
                         <SwiperSlide>

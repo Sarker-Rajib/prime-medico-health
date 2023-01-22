@@ -1,5 +1,6 @@
 import React from 'react';
 import './Banner.css';
+import { FaArrowDown } from 'react-icons/fa';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
 const Banner = () => {
@@ -21,6 +22,9 @@ const Banner = () => {
                         </Col>
                     </Row>
                 </Container>
+                <a className='bottom-link' href="#doctorBanner">
+                    <FaArrowDown className='arrow' />
+                </a>
             </div>
         </>
     );

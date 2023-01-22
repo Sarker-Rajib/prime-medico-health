@@ -1,5 +1,6 @@
 .our-services {
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .our-services .brand-button {
@@ -11,4 +12,10 @@
 .our-services .brand-button:hover {
     color: #bb8000;
     background: rgb(255, 255, 255);
+}
+
+@media(max-width:768px) {
+    .our-services {
+        padding: 30px 0;
+    }
 }
