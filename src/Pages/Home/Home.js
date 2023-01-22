@@ -4,7 +4,6 @@ import Banner from './Banner/Banner';
 import ContactUs from './ContactUs/ContactUs';
 import Faq from './FAQ/Faq';
 import Feedback from './Feedback/Feedback';
-import SliderBanner from './SliderBanner/SliderBanner';
 import Newsletter from './Newsletter/Newsletter';
 import OurDoctors from './OurDoctors/OurDoctors';
 import OurGoal from './OurGoal/OurGoal';
@@ -19,7 +18,6 @@ const Home = () => {
     return (
         <>
             <Banner />
-            <SliderBanner />
             <OurDoctors />
             <OurGoal />
             <OurServices />

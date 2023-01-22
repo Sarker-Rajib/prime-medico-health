@@ -69,3 +69,21 @@
 .banner .bottom-link:hover .arrow {
     transform: scale(1.2);
 }
+
+@media(max-width: 991px) {
+    .banner .bottom-link {
+        display: none;
+    }
+
+    .main-text {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 25px;
+    }
+
+    .h4 {
+        font-size: 18px;
+    }
+}

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../Assets/Images/logo-big.png'
 import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
+import bread from '../../Assets/Images/bread.png';
 
 const Header = () => {
     const { currentUser, logOut } = useContext(AuthContext);
@@ -21,7 +22,7 @@ const Header = () => {
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="">
-                                =
+                                <img src={bread} width="40" alt="b" className='img-fluid p-1' />
                             </span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarText">
