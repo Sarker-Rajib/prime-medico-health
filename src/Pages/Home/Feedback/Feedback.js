@@ -12,7 +12,7 @@ const Feedback = () => {
         <div className='feedback'>
             <Container>
                 <div>
-                    <h2 className="section-header-rtl">What Our Patients Say !</h2>
+                    <h2 className="section-header">What Our Patients Say !</h2>
                     <p>Let's See Feedback and Comments from our patients</p>
                 </div>
                 <div>

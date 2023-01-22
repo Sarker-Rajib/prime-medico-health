@@ -9,14 +9,20 @@ const OurDoctors = () => {
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <div className="text">
+                        <div className="text"
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="700"
+                            data-aos-easing="ease-in-out"
+                        >
                             <h3 className='section-header'>Our Doctors</h3>
                             <p>We are commited to give you best Services in this era.</p>
                             <p>So, here in our healthcare servise you will find Best doctors who are experienced with modern medication over the world.
                                 They are well trained from diffrent foreign medical centers </p>
                             <p>You will be able to take appoinmnts for the following departmental doctors.</p>
 
-                            <ul className='department-list'>
+                            <ul className='department-list' >
                                 <li>Oncology</li>
                                 <li>Neurology</li>
                                 <li>Gynaecology</li>
@@ -33,7 +39,13 @@ const OurDoctors = () => {
                         </div>
                     </Col>
                     <Col lg={6} className="text-center">
-                        <Image src={doctor} className="img-fluid" />
+                        <Image src={doctor} className="img-fluid"
+                            data-aos="fade-left"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="700"
+                            data-aos-easing="ease-in-out"
+                        />
                     </Col>
                 </Row>
             </Container>

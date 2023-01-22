@@ -18,7 +18,13 @@ const OurServices = () => {
                         <h2 className="section-header">Our Services</h2>
                         <p className='m-0'>We are commited to reach your your doorsteps to ensure you our services.</p>
                         <p>Let's see what services we provide ?</p>
-                        <div className='atCareCenter'>
+                        <div className='atCareCenter'
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="700"
+                            data-aos-easing="ease-in-out"
+                        >
                             <h5>At Our Healthcare Center</h5>
                             <ul>
                                 <li>Doctor Consultation</li>
@@ -41,7 +47,13 @@ const OurServices = () => {
                     </Col>
                     <Col lg={7}>
                         <Row>
-                            <Col md={6}>
+                            <Col md={6}
+                                data-aos="fade-down"
+                                data-aos-offset="200"
+                                data-aos-delay="50"
+                                data-aos-duration="700"
+                                data-aos-easing="ease-in-out"
+                            >
                                 <PhotoProvider>
                                     <PhotoView src={image1}>
                                         <img src={image1} alt="img" className='img-fluid h-100 w-100' />
@@ -51,14 +63,26 @@ const OurServices = () => {
 
                             <Col md={6}>
                                 <Row className='h-100'>
-                                    <Col md={6}>
+                                    <Col md={6}
+                                        data-aos="fade-up"
+                                        data-aos-offset="200"
+                                        data-aos-delay="50"
+                                        data-aos-duration="700"
+                                        data-aos-easing="ease-in-out"
+                                    >
                                         <PhotoProvider>
                                             <PhotoView src={image2}>
                                                 <img src={image2} alt="img" className='img-fluid h-100 w-100' />
                                             </PhotoView>
                                         </PhotoProvider>
                                     </Col>
-                                    <Col md={6}>
+                                    <Col md={6}
+                                        data-aos="fade-right"
+                                        data-aos-offset="200"
+                                        data-aos-delay="50"
+                                        data-aos-duration="700"
+                                        data-aos-easing="ease-in-out"
+                                    >
                                         <PhotoProvider>
                                             <PhotoView src={image4}>
                                                 <img src={image4} alt="img" className='img-fluid h-100 w-100' />
@@ -70,14 +94,26 @@ const OurServices = () => {
                         </Row>
 
                         <Row className='mt-2'>
-                            <Col md={6}>
+                            <Col md={6}
+                                data-aos="fade-left"
+                                data-aos-offset="200"
+                                data-aos-delay="50"
+                                data-aos-duration="700"
+                                data-aos-easing="ease-in-out"
+                            >
                                 <PhotoProvider>
                                     <PhotoView src={image3}>
                                         <img src={image3} alt="img" className='img-fluid h-100 w-100' />
                                     </PhotoView>
                                 </PhotoProvider>
                             </Col>
-                            <Col md={6}>
+                            <Col md={6}
+                                data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-delay="50"
+                                data-aos-duration="700"
+                                data-aos-easing="ease-in-out"
+                            >
                                 <PhotoProvider>
                                     <PhotoView src={image5}>
                                         <img src={image5} alt="img" className='img-fluid h-100 w-100' />
