@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import AboutUS from './AboutUs/AboutUS';
 import Banner from './Banner/Banner';
 import ContactUs from './ContactUs/ContactUs';
+import Faq from './FAQ/Faq';
 import Feedback from './Feedback/Feedback';
 import Newsletter from './Newsletter/Newsletter';
 import OurDoctors from './OurDoctors/OurDoctors';
@@ -15,16 +16,17 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
+        <>
             <Banner />
             <OurDoctors />
             <OurGoal />
             <OurServices />
             <AboutUS />
             <Feedback />
+            <Faq />
             <Newsletter />
             <ContactUs />
-        </div>
+        </>
     );
 };
 

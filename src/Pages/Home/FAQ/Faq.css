@@ -1,0 +1,13 @@
+.faq {
+    padding: 50px 0 80px;
+}
+
+.faq .accordion {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.425);
+    border-radius: 15px;
+}
+
+.faq .sub-heading {
+    color: #02b3b3;
+    font-size: 20px;
+}

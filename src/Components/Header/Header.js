@@ -7,7 +7,7 @@ import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 
 const Header = () => {
     const { currentUser, logOut } = useContext(AuthContext);
-    const [logout, setLogout] = useState(false);
+    const [user, setUser] = useState(false);
 
 
     return (
@@ -36,14 +36,14 @@ const Header = () => {
                             {
                                 currentUser &&
                                 <span className='position-relative'>
-                                    <p onClick={() => setLogout(!logout)} className='UserName ms-2 cursor-pointer'>{currentUser?.displayName} </p>
+                                    <p onClick={() => setUser(!user)} className='UserName ms-2 cursor-pointer'>{currentUser?.displayName} </p>
 
                                     {
-                                        logout &&
+                                        user &&
                                         <Button className='position-absolute logout-button'
                                             onClick={() => {
                                                 logOut();
-                                                setLogout(!logout)
+                                                setUser(!user)
                                             }}
                                         >Logout</Button>
                                     }
