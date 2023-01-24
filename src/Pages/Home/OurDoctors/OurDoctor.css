@@ -15,11 +15,13 @@ p {
 .text .brand-button {
     background: #02b3b3;
     border: 2px solid #02b3b3;
+    color: #fff;
 }
 
 .text .brand-button:hover {
     color: #bb8000;
     background: rgb(255, 255, 255);
+    border: 2px solid #02b3b3;
 }
 
 @media(max-width:768px) {

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import doctor from '../../../Assets/Images/doctor.png';
 import './OurDoctor.css';
 
@@ -35,7 +36,7 @@ const OurDoctors = () => {
                                 <li>Cardiology and Cardiac Surgery</li>
                             </ul>
                             <p>Explore Our Doctors and appoint yours -</p>
-                            <Button className='btn brand-button'>Visit Our Doctors</Button>
+                            <Link to='/doctors' className='btn brand-button'>Visit Our Doctors</Link>
                         </div>
                     </Col>
                     <Col lg={6} className="text-center">

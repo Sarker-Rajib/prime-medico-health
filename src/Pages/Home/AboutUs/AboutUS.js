@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './AboutUs.css';
 
 const AboutUS = () => {
@@ -18,7 +19,7 @@ const AboutUS = () => {
                         <li>Voluptatibus molestias recusandae ducimus in.</li>
                         <li>Laboriosam praesentium numquam odit nulla.</li>
                     </ul>
-                    <Button className='brand-button'>More about us</Button>
+                    <Link className='btn brand-button' to='/aboutus'>More about us</Link>
                 </div>
             </Container>
 

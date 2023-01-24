@@ -44,7 +44,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Consult with Doctor</h3>
                                     <p>You can take a appointmen from home</p>
-                                    <Link className='banner-button' to='/'>Appoinment Now</Link>
+                                    <Link className='banner-button' to='/doctors'>Appoinment Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Medicine Shop</h3>
                                     <p>Get Your medicine from our shop or Home</p>
-                                    <Link className='banner-button' to='/'>Order Now</Link>
+                                    <Link className='banner-button' to='/medicineshop'>Order Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Diagnostic laboratory</h3>
                                     <p>We perform all lab test with automated analysers</p>
-                                    <Link className='banner-button' to='/'>About Laboratory</Link>
+                                    <Link className='banner-button' to='/laboratory'>About Laboratory</Link>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Home Sample Collection</h3>
                                     <p>Give your diagnostics samples from home</p>
-                                    <Link className='banner-button' to='/'>Book Now</Link>
+                                    <Link className='banner-button' to='/samplecollection'>Book Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Radiology & Imaging</h3>
                                     <p>Do You radiology tests with Updated machine</p>
-                                    <Link className='banner-button' to='/'>About R&I Deparment</Link>
+                                    <Link className='banner-button' to='/r&i'>About R&I Deparment</Link>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Telemedicine Service</h3>
                                     <p>You can call a doctor for online medicine suggestion</p>
-                                    <Link className='banner-button' to='/'>Call Now</Link>
+                                    <Link className='banner-button' to='/telemedicine'>Call Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Surgery</h3>
                                     <p>We are providing advanced ot service with expert surgeons</p>
-                                    <Link className='banner-button' to='/'>Our Surgeons</Link>
+                                    <Link className='banner-button' to='/surgeons'>Our Surgeons</Link>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ const SliderBanner = () => {
                                 <div className='text-end'>
                                     <h3>Dental Care</h3>
                                     <p>Get Dental Treatment with Expert Dentists</p>
-                                    <Link className='banner-button' to='/'>Shedule your time</Link>
+                                    <Link className='banner-button' to='/dentalcare'>Shedule your time</Link>
                                 </div>
                             </div>
                         </div>

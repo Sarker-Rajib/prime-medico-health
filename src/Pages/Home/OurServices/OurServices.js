@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import './Ourservices.css';
@@ -8,6 +8,7 @@ import image2 from '../../../Assets/Images/doctor-character-background_1270-84.p
 import image3 from '../../../Assets/Images/co.png';
 import image4 from '../../../Assets/Images/alinity-ci-series.png';
 import image5 from '../../../Assets/Images/dental-filling-min-1080x675.png';
+import { Link } from 'react-router-dom';
 
 const OurServices = () => {
     return (
@@ -42,7 +43,7 @@ const OurServices = () => {
                                 <li>Get medicine from home</li>
                                 <li>Lab test from your home</li>
                             </ul>
-                            <Button className="brand-button">Explore</Button>
+                            <Link to='/r&i' className="btn brand-button">Explore</Link>
                         </div>
                     </Col>
                     <Col lg={7}>

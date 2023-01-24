@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import doctor from '../../../Assets/Images/smileeedoctor.jpg';
 import './OurGoal.css';
 
@@ -32,6 +33,7 @@ const OurGoal = () => {
                                 </p>
                                 <p>With minimum cost, our aim is to give you the mest medical services.</p>
                                 <p>We are commited to reach at your doorstep, You just need to call us for once.</p>
+                                <Link to='/ourgoal' className='btn brand-button'>Explore More</Link>
                             </div>
                         </div>
                     </Col>
