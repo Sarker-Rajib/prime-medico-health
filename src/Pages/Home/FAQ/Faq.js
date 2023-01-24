@@ -19,7 +19,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #1</Accordion.Header>
+                            <Accordion.Header>Question #1</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -38,7 +38,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #2</Accordion.Header>
+                            <Accordion.Header>Question #2</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -56,7 +56,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #3</Accordion.Header>
+                            <Accordion.Header>Question #3</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -74,7 +74,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #4</Accordion.Header>
+                            <Accordion.Header>Question #4</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -92,7 +92,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #5</Accordion.Header>
+                            <Accordion.Header>Question #5</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -110,7 +110,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #6</Accordion.Header>
+                            <Accordion.Header>Question #6</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -128,7 +128,7 @@ const Faq = () => {
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out"
                         >
-                            <Accordion.Header>Accordion Item #7</Accordion.Header>
+                            <Accordion.Header>Question #7</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

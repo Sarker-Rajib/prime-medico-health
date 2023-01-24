@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation } from 'swiper';
-import './SliderBanner.css';
+import "./SliderBanner.css";
 
 // images
 import medicine from "./../../../Assets/Images/01med.png";
@@ -15,7 +15,6 @@ import ot from "./../../../Assets/Images/ott.png";
 import den from "./../../../Assets/Images/Dentistry.png";
 import home from "./../../../Assets/Images/home.png";
 import { Link } from 'react-router-dom';
-
 
 const SliderBanner = () => {
     return (
@@ -55,8 +54,8 @@ const SliderBanner = () => {
                             <img className='img-fluid' src={medicine} alt='imageCarouseer' />
                             <div className="text">
                                 <div className='text-end'>
-                                    <h3>Medicine Delivery</h3>
-                                    <p>Get Your medicine from Home</p>
+                                    <h3>Medicine Shop</h3>
+                                    <p>Get Your medicine from our shop or Home</p>
                                     <Link className='banner-button' to='/'>Order Now</Link>
                                 </div>
                             </div>
@@ -68,7 +67,7 @@ const SliderBanner = () => {
                             <div className="text">
                                 <div className='text-end'>
                                     <h3>Diagnostic laboratory</h3>
-                                    <p>We perform all lab test with automated analusers</p>
+                                    <p>We perform all lab test with automated analysers</p>
                                     <Link className='banner-button' to='/'>About Laboratory</Link>
                                 </div>
                             </div>
@@ -128,7 +127,7 @@ const SliderBanner = () => {
                             <div className="text">
                                 <div className='text-end'>
                                     <h3>Dental Care</h3>
-                                    <p>Get Dental cure with Discount</p>
+                                    <p>Get Dental Treatment with Expert Dentists</p>
                                     <Link className='banner-button' to='/'>Shedule your time</Link>
                                 </div>
                             </div>

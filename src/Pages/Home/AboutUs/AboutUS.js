@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import './AboutUs.css';
 
 const AboutUS = () => {
@@ -18,6 +18,7 @@ const AboutUS = () => {
                         <li>Voluptatibus molestias recusandae ducimus in.</li>
                         <li>Laboriosam praesentium numquam odit nulla.</li>
                     </ul>
+                    <Button className='brand-button'>More about us</Button>
                 </div>
             </Container>
 

@@ -1,4 +1,5 @@
 .slider-banner .swiper .service-item {
+    background: #31a0cc;
     position: relative;
 }
 
@@ -11,18 +12,19 @@
     padding: 30px;
     background: #d3ebf194;
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     color: #000000;
 }
 
 .slider-banner .swiper .swiper-button-prev {
     top: 90%;
+    left: 20px;
 }
 
 .slider-banner .swiper .swiper-button-prev::after {
     color: #5f8f8f;
-    font-size: 30px;
+    font-size: 20px;
     background: #f5b01b;
     padding: 7px;
     border-radius: 5px;
@@ -36,18 +38,23 @@
 
 .slider-banner .swiper .swiper-button-next::after {
     color: #02b3b3;
-    font-size: 30px;
+    font-size: 20px;
     background: #f5b01b;
     padding: 7px;
     border-radius: 5px;
 }
 
 .slider-banner .swiper .banner-button {
-    background: #f5b01b;
+    background: #000;
     color: #ffffff;
     text-decoration: none;
-    padding: 5px 8px;
+    padding: 8px 12px;
     border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.slider-banner .swiper .banner-button:hover {
+    background: #f5b01b;
 }
 
 @media(max-width: 991px) {
