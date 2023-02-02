@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.doc {
+    border: 2px solid #02b3b3;
+}
+
+.doc .title {
+    color: #02b3b3;
+    padding-top: 10px;
+    font-family: 'Courgette', cursive;
+}
+
+.doc .brand-button {
+    background: #02b3b3;
+    border: 2px solid #02b3b3;
+    color: #fff;
+}
+
+.doc .brand-button:hover {
+    color: #bb8000;
+    background: rgb(255, 255, 255);
+    border: 2px solid #02b3b3;
+    font-weight: bold;
+}
