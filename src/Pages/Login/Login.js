@@ -1,6 +1,7 @@
 import { GoogleAuthProvider } from 'firebase/auth';
 import React, { useContext, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 import './Login.css';
@@ -27,7 +28,7 @@ const Login = () => {
         providerLogin(googleLogin)
             .then(data => {
                 if (data) {
-                    alert("login successful")
+                    toast.success("Login successful")
                 }
             })
     };
