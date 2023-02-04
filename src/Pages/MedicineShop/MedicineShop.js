@@ -11,6 +11,7 @@ import { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Login from '../Login/Login';
+import { toast } from 'react-hot-toast';
 
 const MedicineShop = () => {
     const [show, setShow] = useState(false);
@@ -29,11 +30,15 @@ const MedicineShop = () => {
             medicineQuantity
         }
 
-        setMedItems([...medItems, medItem]);
-        form.reset();
+        if (!medItem.medicine <= 0 && medItem.medicineQuantity > 0) {
+            setMedItems([...medItems, medItem]);
+            toast.success("Item added successfully");
+            form.reset();
+        }
+        else {
+            toast.error("Please select inputs for medicine item");
+        }
     };
-
-    console.log(medItems);
 
     return (
         <div className='container'>
@@ -124,6 +129,12 @@ const MedicineShop = () => {
                             <p>Upload Your Prescription (Easyest way to order)</p>
                             <form>
                                 <h6 className="username">Customer Name: {currentUser?.displayName}</h6>
+
+                                <label>Address</label>
+                                <input
+                                    type="textarea"
+                                    className="form-control" placeholder='address' />
+                                <br />
                                 <input type="file" />
                                 <br />
                                 <Button className='my-3 px-5'>Place Order</Button>
@@ -135,6 +146,11 @@ const MedicineShop = () => {
                             <p>Choose medicines yourself</p>
                             <form onSubmit={handleAddItem}>
                                 <h6 className="username">Customer Name: {currentUser?.displayName}</h6>
+                                <label>Address</label>
+                                <input
+                                    type="textarea"
+                                    className="form-control" placeholder='address' />
+                                <br />
                                 <div className="row">
                                     <div className='col-md-6 col-xl-4'>
                                         <label htmlFor="medicine">Medicine Name</label>
