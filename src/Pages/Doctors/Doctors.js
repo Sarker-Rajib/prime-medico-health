@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import DoctorCard from '../../Components/DoctorCard/DoctorCard';
 
 const doctors = [
@@ -61,6 +61,10 @@ const doctors = [
 ]
 
 const Doctors = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='container py-3'>
             <h2 className='section-header'>Our Experienced Doctors</h2>
