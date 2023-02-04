@@ -125,7 +125,7 @@ const MedicineShop = () => {
                     currentUser ? <>
                         <h4>Place an Online Order !</h4>
                         <div className='border p-3 rounded'>
-                            <h5>Option 1</h5>
+                            <h5>Option 1 (Just Upload Prescription)</h5>
                             <p>Upload Your Prescription (Easyest way to order)</p>
                             <form>
                                 <h6 className="username">Customer Name: {currentUser?.displayName}</h6>
@@ -135,14 +135,16 @@ const MedicineShop = () => {
                                     type="textarea"
                                     className="form-control" placeholder='address' />
                                 <br />
+                                <label>Please choose file for prescription</label>
+                                <br />
                                 <input type="file" />
                                 <br />
-                                <Button className='my-3 px-5'>Place Order</Button>
+                                <Button className='my-3 px-5 brand-button'>Place Order</Button>
                             </form>
                         </div>
                         <br />
                         <div className='border p-3 rounded'>
-                            <h5>Option 2</h5>
+                            <h5>Option 2 (Choose your medicines)</h5>
                             <p>Choose medicines yourself</p>
                             <form onSubmit={handleAddItem}>
                                 <h6 className="username">Customer Name: {currentUser?.displayName}</h6>
@@ -177,7 +179,7 @@ const MedicineShop = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <Button type='sumbit' className='my-3 px-5'>Add Item</Button>
+                                <Button type='sumbit' className='my-3 px-5 brand-button'>Add Item</Button>
                             </form>
                             {medItems.length === 0 ? <p>Add items to see here</p>
                                 :
@@ -190,7 +192,7 @@ const MedicineShop = () => {
                                     </ul>
                                 </>
                             }
-                            <Button className='my-1 px-5'>Place Order</Button>
+                            <Button className='my-1 px-5 brand-button'>Place Order</Button>
                         </div>
                     </>
                         :

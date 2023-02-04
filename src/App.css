@@ -45,6 +45,18 @@
   padding-bottom: 10px;
 }
 
+.brand-button {
+  background: #02b3b3;
+  border: 2px solid #02b3b3;
+  color: #fff;
+}
+
+.brand-button:hover {
+  color: #bb8000;
+  background: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
 .section-header-full::after {
   content: '';
   position: absolute;
