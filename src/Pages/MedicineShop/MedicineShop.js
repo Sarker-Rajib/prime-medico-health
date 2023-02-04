@@ -145,7 +145,6 @@ const MedicineShop = () => {
                         <br />
                         <div className='border p-3 rounded'>
                             <h5>Option 2 (Choose your medicines)</h5>
-                            <p>Choose medicines yourself</p>
                             <form onSubmit={handleAddItem}>
                                 <h6 className="username">Customer Name: {currentUser?.displayName}</h6>
                                 <label>Address</label>
@@ -179,7 +178,7 @@ const MedicineShop = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <Button type='sumbit' className='my-3 px-5 brand-button'>Add Item</Button>
+                                <Button type='sumbit' className='my-3 px-5 brand-button add'>Add Item</Button>
                             </form>
                             {medItems.length === 0 ? <p>Add items to see here</p>
                                 :
