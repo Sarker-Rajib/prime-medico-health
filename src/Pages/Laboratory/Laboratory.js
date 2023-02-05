@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import './Lab.css';
 import { Navigation } from 'swiper';
 import image1 from './images/1.jpg';
 import image2 from './images/2.jpg';
@@ -10,7 +11,7 @@ import image5 from './images/5.jpg';
 const Laboratory = () => {
     return (
         <div className='container'>
-            <div className="slider-medicine pt-3">
+            <div className="slider-lab pt-3">
                 <Swiper
                     navigation={true}
                     slidesPerView={1}
@@ -86,10 +87,43 @@ const Laboratory = () => {
                 </Swiper>
             </div>
 
-            <div className="details pt-2">
-                <h2 className='section-header'>A little about our Laboratory</h2>
+            <div className="hamematology pt-3">
+                <h2 className='section-header'>Haematology Laboratory</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
             </div>
+
+            <div className="Biochemistry pt-3">
+                <div className="text-end">
+                    <h2 className='section-header-rtl text-end'>Biochemistry Laboratory</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
+            </div>
+
+            <div className="c-Pathology pt-3">
+                <h2 className='section-header'>Clinical Pathology Laboratory</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
+            </div>
+
+            <div className="Histopathology pt-3">
+                <div className="text-end">
+                    <h2 className='section-header-rtl text-end'>Histopathology Laboratory</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
+            </div>
+
+            <div className="Molecular pt-3">
+                <h2 className='section-header'>Molecular Laboratory</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
+            </div>
+
+            <div className="Microbiology pt-3">
+                <div className="text-end">
+                    <h2 className='section-header-rtl text-end'>Microbiology Laboratory</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta architecto a, quibusdam enim illo ducimus totam ad delectus rem provident magnam libero velit dolores quidem vero error deserunt molestias! Voluptate veniam illum delectus ea, corporis repellat! Labore in velit, aperiam aspernatur sequi ea doloremque animi corrupti id nemo eaque.</p>
+            </div>
+
+            <div className="py-3"></div>
         </div>
     );
 };

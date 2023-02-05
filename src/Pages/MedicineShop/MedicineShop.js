@@ -58,7 +58,7 @@ const MedicineShop = () => {
                         delay: 4000,
                     }}
                     modules={[Navigation]}
-                    className="mySwiper pb-3"
+                    className="mySwiper mb-3"
                 >
                     <SwiperSlide>
                         <div className='service-item'>

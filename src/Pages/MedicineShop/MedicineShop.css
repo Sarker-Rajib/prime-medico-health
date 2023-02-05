@@ -116,3 +116,17 @@
     background: rgb(255, 255, 255);
     font-weight: bold;
 }
+
+@media(max-width: 991px) {
+    .slider-medicine .swiper .service-item .text h3 {
+        font-size: 20px;
+        background: #1b869936;
+    }
+}
+
+@media(max-width: 991px) {
+    .slider-medicine .swiper .service-item .text p {
+        background: #1b869936;
+        font-size: 16px;
+    }
+}

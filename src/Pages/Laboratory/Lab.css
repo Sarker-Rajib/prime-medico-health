@@ -1,23 +1,23 @@
-.slider-medicine .swiper .service-item {
+.slider-lab .swiper .service-item {
     background: #31a0cc;
     position: relative;
 }
 
-.slider-medicine .swiper .service-item .text {
+.slider-lab .swiper .service-item .text {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     padding: 30px;
-    background: #3c3f4144;
+    background: #ffffff7c;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #f5b01b;
 }
 
-.slider-medicine .swiper .service-item .text h3 {
+.slider-lab .swiper .service-item .text h3 {
     padding: 5px 10px;
     font-size: 40px;
     background: #1b8699d5;
@@ -25,20 +25,37 @@
     box-shadow: 0px 0px 5px #00000080;
 }
 
-.slider-medicine .swiper .service-item .text p {
+@media(max-width: 991px) {
+    .slider-lab .swiper .service-item .text h3 {
+        font-size: 20px;
+        background: #1b869936;
+        color: #000;
+    }
+}
+
+
+.slider-lab .swiper .service-item .text p {
     padding: 5px 10px;
     background: #1b8699d5;
     color: #ffffff;
     box-shadow: 0px 0px 5px #00000080;
 }
 
-.slider-medicine .swiper .swiper-button-prev {
+@media(max-width: 991px) {
+    .slider-lab .swiper .service-item .text p {
+        background: #1b869936;
+        font-size: 16px;
+        color: #000;
+    }
+}
+
+.slider-lab .swiper .swiper-button-prev {
     top: 90%;
     left: calc(50% - 20px);
     transform: translateX(-50%);
 }
 
-.slider-medicine .swiper .swiper-button-prev::after {
+.slider-lab .swiper .swiper-button-prev::after {
     color: #5f8f8f;
     font-size: 20px;
     background: #f5b01b;
@@ -47,13 +64,13 @@
 }
 
 
-.slider-medicine .swiper .swiper-button-next {
+.slider-lab .swiper .swiper-button-next {
     top: 90%;
     left: calc(50% + 20px);
     transform: translateX(-50%);
 }
 
-.slider-medicine .swiper .swiper-button-next::after {
+.slider-lab .swiper .swiper-button-next::after {
     color: #02b3b3;
     font-size: 20px;
     background: #f5b01b;
@@ -61,7 +78,7 @@
     border-radius: 5px;
 }
 
-.slider-medicine .swiper .banner-button {
+.slider-lab .swiper .banner-button {
     background: #000;
     color: #ffffff;
     text-decoration: none;
@@ -70,12 +87,12 @@
     transition: all 0.2s;
 }
 
-.slider-medicine .swiper .banner-button:hover {
+.slider-lab .swiper .banner-button:hover {
     background: #f5b01b;
 }
 
 @media(max-width: 991px) {
-    .slider-medicine .swiper {
+    .slider-lab .swiper {
         margin-bottom: 20px;
     }
 }
