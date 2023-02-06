@@ -2,8 +2,10 @@ import React from 'react';
 
 const Telemedicine = () => {
     return (
-        <div>
-            Telemedicine
+        <div className='container'>
+            <div className="header">
+                <h2 className='section-header'>Telemedicine</h2>
+            </div>
         </div>
     );
 };
