@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main/Main";
+import AllOurServices from "../Pages/AllOurServices/AllOurServices";
 import DentalCare from "../Pages/DentalCare/DentalCare";
 import Doctors from "../Pages/Doctors/Doctors";
 import Error404 from "../Pages/Error404/Error404";
@@ -75,6 +76,10 @@ export const router = createBrowserRouter([
             {
                 path: '/ourgoal',
                 element: <OurGoals />
+            },
+            {
+                path: '/ourservices',
+                element: <AllOurServices />
             },
         ]
     },

@@ -43,7 +43,7 @@ const OurServices = () => {
                                 <li>Get medicine from home</li>
                                 <li>Lab test from your home</li>
                             </ul>
-                            <Link to='/r&i' className="btn brand-button">Explore</Link>
+                            <Link to='/ourservices' className="btn brand-button">Explore</Link>
                         </div>
                     </Col>
                     <Col lg={7}>
