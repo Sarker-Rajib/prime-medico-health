@@ -1,0 +1,12 @@
+.info-card {
+    border: 1px solid #ffc64b;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #52515171;
+    height: 100%;
+}
+
+.info-card h5,
+.info-card h6 {
+    color: #02b3b3;
+}
