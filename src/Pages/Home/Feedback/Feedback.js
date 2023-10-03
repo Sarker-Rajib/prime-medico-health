@@ -19,11 +19,12 @@ const Feedback = () => {
                     <Swiper
                         navigation={true}
                         slidesPerView={4}
-                        spaceBetween={20}
+                        spaceBetween={40}
+                        centeredSlides={true}
                         autoplay={{
                             delay: 3500,
                         }}
-                        // loop={true}
+                        loop={true}
                         modules={[Navigation]}
                         breakpoints={{
                             // when window width is >= 640px
@@ -45,7 +46,7 @@ const Feedback = () => {
                                 slidesPerView: 4,
                             },
                         }}
-                        className="mySwiper">
+                        className="mySwiper align-items-center">
 
                         <SwiperSlide>
                             <div className="comment-card">
@@ -103,7 +104,6 @@ const Feedback = () => {
                                 <span>date:</span>
                             </div>
                         </SwiperSlide>
-
                     </Swiper>
                 </div>
             </Container>

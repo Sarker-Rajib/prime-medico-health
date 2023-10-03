@@ -11,7 +11,6 @@ const MoreAboutUs = () => {
                 This medical is one of our public helping project where we provide services to people with minimum cost, so that people can get their basic health services.
                 <br />
                 Our management gathered with great heart people. So let's get introduced with them.
-
             </p>
             <div className="row g-4 mb-4">
 

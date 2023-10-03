@@ -25,7 +25,7 @@ const SliderBanner = () => {
                     slidesPerView={1}
                     loop={true}
                     centeredSlides={false}
-                    spaceBetween={10}
+                    spaceBetween={0}
                     grabCursor={true}
                     pagination={{
                         clickable: true,

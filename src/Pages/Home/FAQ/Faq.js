@@ -12,14 +12,8 @@ const Faq = () => {
                 </div>
                 <div className="accordions-faq">
                     <Accordion>
-                        <Accordion.Item eventKey="0"
-                            data-aos="fade-right"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #1</Accordion.Header>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>quis nostrud exercitation ullamco laboris nisi ut ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -31,14 +25,8 @@ const Faq = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="1"
-                            data-aos="fade-left"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #2</Accordion.Header>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>lorem iehdios ipasox ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -49,14 +37,8 @@ const Faq = () => {
                                 culpa qui officia deserunt mollit anim id est laborum.
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="2"
-                            data-aos="fade-right"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #3</Accordion.Header>
+                        <Accordion.Item eventKey="2">
+                            <Accordion.Header>voluptate velit esse cillum ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -67,14 +49,8 @@ const Faq = () => {
                                 culpa qui officia deserunt mollit anim id est laborum.
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="3"
-                            data-aos="fade-left"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #4</Accordion.Header>
+                        <Accordion.Item eventKey="3">
+                            <Accordion.Header>ex ea commodo consequat ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -85,14 +61,8 @@ const Faq = () => {
                                 culpa qui officia deserunt mollit anim id est laborum.
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="4"
-                            data-aos="fade-right"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #5</Accordion.Header>
+                        <Accordion.Item eventKey="4">
+                            <Accordion.Header>deserunt mollit anim id est laborum ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -103,14 +73,8 @@ const Faq = () => {
                                 culpa qui officia deserunt mollit anim id est laborum.
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="5"
-                            data-aos="fade-left"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #6</Accordion.Header>
+                        <Accordion.Item eventKey="5">
+                            <Accordion.Header>consectetur adipiscing elit ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -121,14 +85,8 @@ const Faq = () => {
                                 culpa qui officia deserunt mollit anim id est laborum.
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="6"
-                            data-aos="fade-right"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <Accordion.Header>Question #7</Accordion.Header>
+                        <Accordion.Item eventKey="6">
+                            <Accordion.Header>quis nostrud exercitation ullamco ?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
