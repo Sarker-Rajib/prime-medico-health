@@ -8,8 +8,18 @@
     overflow: hidden;
 }
 
-.accordion-button {
-    font-size: 30px;
+.faq .accordion-button {
+    font-size: 20px;
+    color: #147575;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    background: #02b3b3;
+    color: aliceblue;
+}
+
+.faq .accordion-button:focus {
+    box-shadow: none;
 }
 
 .faq .sub-heading {

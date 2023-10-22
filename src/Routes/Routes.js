@@ -15,6 +15,7 @@ import SampleCollection from "../Pages/SampleCollection/SampleCollection";
 import SignUp from "../Pages/SignUp/SignUp";
 import Surgeons from "../Pages/Surgeons/Surgeons";
 import Telemedicine from "../Pages/Telemedicine/Telemedicine";
+import ContactDetails from "../Pages/ContactDetails/ContactDetails";
 
 export const router = createBrowserRouter([
     {
@@ -27,7 +28,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <>h</>
+                element: <ContactDetails />
             },
             {
                 path: '/signup',
